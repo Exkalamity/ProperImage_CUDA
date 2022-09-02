@@ -149,7 +149,7 @@ def plot_R(R, path=None, nbook=False):
 # =============================================================================
 
 
-@attr.s(frozen=True, repr=False, eq=False, order=False)
+@attr.s(frozen=True, repr=False)
 class Plot:
     """Plotting plug-in object for SingleImage class."""
 

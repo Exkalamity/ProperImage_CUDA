@@ -101,7 +101,7 @@ def subtract(
     mix_mask : np.ndarray of bool
         Mask of bad pixels for subtracion image, with True marking bad pixels
     """
-
+	print("Running Exkalamity's Subtract")
     if fitted_psf:
         from .single_image import SingleImageGaussPSF as SI
 
